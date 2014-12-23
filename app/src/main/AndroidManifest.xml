@@ -7,7 +7,12 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/CustomActionBarTheme" >
+        <!-- The main/home activity (it has no parent activity) -->
+
+        <!-- A child of the main activity -->
+
+       \
         <activity
             android:name="com.example.owen.myapplication.MainActivity"
             android:label="@string/app_name" >
